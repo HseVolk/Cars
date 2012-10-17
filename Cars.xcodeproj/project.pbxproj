@@ -24,6 +24,7 @@
 		4430A3591629D1E50039F09D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4430A3311629D1E30039F09D /* Foundation.framework */; };
 		4430A3611629D1E50039F09D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4430A35F1629D1E50039F09D /* InfoPlist.strings */; };
 		4430A3641629D1E50039F09D /* CarsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4430A3631629D1E50039F09D /* CarsTests.m */; };
+		4430A36F1629D22C0039F09D /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 4430A36E1629D22C0039F09D /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		4430A3601629D1E50039F09D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4430A3621629D1E50039F09D /* CarsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarsTests.h; sourceTree = "<group>"; };
 		4430A3631629D1E50039F09D /* CarsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarsTests.m; sourceTree = "<group>"; };
+		4430A36D1629D22C0039F09D /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		4430A36E1629D22C0039F09D /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 		4430A3201629D1E20039F09D = {
 			isa = PBXGroup;
 			children = (
+				4430A36D1629D22C0039F09D /* Car.h */,
+				4430A36E1629D22C0039F09D /* Car.m */,
 				4430A3351629D1E30039F09D /* Cars */,
 				4430A35C1629D1E50039F09D /* CarsTests */,
 				4430A32E1629D1E30039F09D /* Frameworks */,
@@ -277,6 +282,7 @@
 				4430A33C1629D1E30039F09D /* main.m in Sources */,
 				4430A3401629D1E30039F09D /* AppDelegate.m in Sources */,
 				4430A34F1629D1E40039F09D /* ViewController.m in Sources */,
+				4430A36F1629D22C0039F09D /* Car.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +399,7 @@
 				GCC_PREFIX_HEADER = "Cars/Cars-Prefix.pch";
 				INFOPLIST_FILE = "Cars/Cars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,6 +411,7 @@
 				GCC_PREFIX_HEADER = "Cars/Cars-Prefix.pch";
 				INFOPLIST_FILE = "Cars/Cars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +469,7 @@
 				4430A3691629D1E50039F09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4430A36A1629D1E50039F09D /* Build configuration list for PBXNativeTarget "CarsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				4430A36C1629D1E50039F09D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
